@@ -18,15 +18,17 @@ class questionario : AppCompatActivity() {
         startActivity(intent)
     }
 
+    val genero = listOf<String>("Masculino", "Feminino")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_questionario)
 
-        resultado_questionario.setOnClickListener (View.OnClickListener {
+            resultado_questionario.setOnClickListener (View.OnClickListener {
                 if (checkBox_Masculino.isChecked) {
-                    return@OnClickListener
+                    textView20.text = genero[0]
                 } else if (checkBox_Feminino.isChecked) {
-                    return@OnClickListener
+                    textView20.text = genero[1]
                 }
             })
             resultado_questionario.setOnClickListener(View.OnClickListener {

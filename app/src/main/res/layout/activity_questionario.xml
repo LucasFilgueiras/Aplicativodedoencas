@@ -75,7 +75,7 @@
             android:id="@+id/editTextTextPersonName"
             android:layout_width="100dp"
             android:layout_height="40dp"
-            android:layout_marginTop="184dp"
+            android:layout_marginTop="193dp"
             android:ems="10"
             android:hint="Digite aqui"
             android:inputType="textPersonName"
