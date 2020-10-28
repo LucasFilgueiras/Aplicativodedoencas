@@ -20,9 +20,11 @@ class MainActivity4 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main4)
 
+
         Voltar.setOnClickListener {
             openNextActivity()
         }
+
 
     }
 }
