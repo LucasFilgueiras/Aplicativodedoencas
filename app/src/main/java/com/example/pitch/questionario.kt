@@ -253,25 +253,25 @@ class questionario : AppCompatActivity() {
                 textDoenca.text = resultString16.toString()
             }
 
-            if (contadorDengue > contadorCovid && contadorDengue > contadorAids && contadorDengue > contadorTubercoluse && contadorDengue > contadorH1N1) {
+            else if (contadorDengue > contadorCovid && contadorDengue > contadorAids && contadorDengue > contadorTubercoluse && contadorDengue > contadorH1N1) {
                 val resultString17 = StringBuilder()
                 resultString17.append("Dengue, Zika e Chikungunya")
                 textDoenca.text = resultString17.toString()
             }
 
-            if (contadorH1N1 > contadorDengue && contadorH1N1 > contadorCovid && contadorH1N1 > contadorAids && contadorH1N1 > contadorTubercoluse) {
+            else if (contadorH1N1 > contadorDengue && contadorH1N1 > contadorCovid && contadorH1N1 > contadorAids && contadorH1N1 > contadorTubercoluse) {
                 val resultString18 = StringBuilder()
                 resultString18.append("Gripe comum ou H1N1")
                 textDoenca.text = resultString18.toString()
             }
 
-            if (contadorTubercoluse > contadorAids && contadorTubercoluse > contadorCovid && contadorTubercoluse > contadorDengue && contadorTubercoluse > contadorH1N1) {
+            else if (contadorTubercoluse > contadorAids && contadorTubercoluse > contadorCovid && contadorTubercoluse > contadorDengue && contadorTubercoluse > contadorH1N1) {
                 val resultString19 = StringBuilder()
                 resultString19.append("Tuberculose")
                 textDoenca.text = resultString19.toString()
             }
 
-            if (contadorAids > contadorCovid && contadorAids > contadorDengue && contadorAids > contadorH1N1 && contadorAids > contadorTubercoluse) {
+             else if (contadorAids > contadorCovid && contadorAids > contadorDengue && contadorAids > contadorH1N1 && contadorAids > contadorTubercoluse) {
                 val resultString20 = StringBuilder()
                 resultString20.append("Aids")
                 textDoenca.text = resultString20.toString()
