@@ -3,20 +3,19 @@ package com.example.pitch
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
-import android.widget.CheckBox
-import android.widget.TextView
-import com.example.pitch.R
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_questionario.*
-import kotlinx.android.synthetic.main.activity_main4.*
 import java.lang.StringBuilder
 
 
 class questionario : AppCompatActivity() {
 
-    private fun openNextActivity() {
+    var contadorCovid: Int = 0
+    var contadorDengue: Int = 0
+    var contadorH1N1: Int = 0
+    var contadorTubercoluse: Int = 0
+    var contadorAids: Int = 0
+
+    private fun openNextActivity2() {
         val intent = Intent(this, MainActivity4::class.java)
         startActivity(intent)
     }
@@ -177,46 +176,114 @@ class questionario : AppCompatActivity() {
             if (checkBox35.isChecked) {
                 resultString14.append("Enfisema")
             }
-            if (checkBox.isChecked){
+            if (checkBox.isChecked) {
                 resultString14.append("Nenhum")
             }
             textRespiratorio.text = resultString14.toString()
 
             val resultString15 = StringBuilder()
-            if (checkBox36.isChecked) {
+            if (tosse.isChecked) {
                 resultString15.append("Tosse")
+                contadorCovid++
+                contadorH1N1++
+                contadorTubercoluse++
             }
-            if (checkBox37.isChecked) {
+            if (gripe.isChecked) {
                 resultString15.append("Gripe")
+                contadorCovid++
+                contadorAids++
+                contadorH1N1++
             }
-            if (checkBox38.isChecked) {
+            if (nauseas.isChecked) {
                 resultString15.append("Náuseas")
+                contadorCovid++
+                contadorAids++
+                contadorH1N1++
             }
-            if (checkBox39.isChecked) {
+            if (dores_corpo.isChecked) {
                 resultString15.append("Dores no corpo")
+                contadorCovid++
+                contadorDengue++
+                contadorAids++
+                contadorH1N1++
+                contadorTubercoluse++
             }
-            if (checkBox40.isChecked) {
+            if (febre.isChecked) {
                 resultString15.append("Febre")
+                contadorCovid++
+                contadorDengue++
+                contadorAids++
+                contadorTubercoluse++
             }
-            if (checkBox41.isChecked) {
+            if (diarreia.isChecked) {
                 resultString15.append("Diarréia")
+                contadorCovid++
+                contadorAids++
+                contadorH1N1++
             }
-            if (checkBox42.isChecked) {
+            if (dor_garganta.isChecked) {
                 resultString15.append("Dor de garganta")
+                contadorCovid++
+                contadorAids++
+                contadorH1N1++
             }
-            if (checkBox43.isChecked) {
+            if (fraqueza_muscular.isChecked) {
                 resultString15.append("Fraqueza muscular")
+                contadorDengue++
+                contadorH1N1++
             }
-            if (checkBox44.isChecked) {
+            if (falta_ar.isChecked) {
                 resultString15.append("Falta de ar")
+                contadorCovid++
             }
-            if (checkBox45.isChecked) {
+            if (perda_paladar.isChecked) {
                 resultString15.append("Perda do paladar")
+                contadorCovid++
+                contadorTubercoluse++
             }
-            if (checkBox46.isChecked) {
+            if (perda_oufato.isChecked) {
                 resultString15.append("Perda do oufato")
+                contadorCovid++
             }
             textSintomas2.text = resultString15.toString()
+
+            if (contadorCovid > contadorAids && contadorCovid > contadorDengue && contadorCovid > contadorTubercoluse && contadorCovid > contadorH1N1) {
+                val resultString16 = StringBuilder()
+                resultString16.append("Corona Vírus (Covid-19)")
+                textDoenca.text = resultString16.toString()
+            }
+
+            if (contadorDengue > contadorCovid && contadorDengue > contadorAids && contadorDengue > contadorTubercoluse && contadorDengue > contadorH1N1) {
+                val resultString17 = StringBuilder()
+                resultString17.append("Dengue, Zika e Chikungunya")
+                textDoenca.text = resultString17.toString()
+            }
+
+            if (contadorH1N1 > contadorDengue && contadorH1N1 > contadorCovid && contadorH1N1 > contadorAids && contadorH1N1 > contadorTubercoluse) {
+                val resultString18 = StringBuilder()
+                resultString18.append("Gripe comum ou H1N1")
+                textDoenca.text = resultString18.toString()
+            }
+
+            if (contadorTubercoluse > contadorAids && contadorTubercoluse > contadorCovid && contadorTubercoluse > contadorDengue && contadorTubercoluse > contadorH1N1) {
+                val resultString19 = StringBuilder()
+                resultString19.append("Tuberculose")
+                textDoenca.text = resultString19.toString()
+            }
+
+            if (contadorAids > contadorCovid && contadorAids > contadorDengue && contadorAids > contadorH1N1 && contadorAids > contadorTubercoluse) {
+                val resultString20 = StringBuilder()
+                resultString20.append("Aids")
+                textDoenca.text = resultString20.toString()
+
+            } else {
+                textDoenca.text = "Doença indefinida"
+            }
+            contadorCovid = 0
+            contadorAids = 0
+            contadorTubercoluse = 0
+            contadorH1N1 = 0
+            contadorDengue = 0
         }
     }
 }

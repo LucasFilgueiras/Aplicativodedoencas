@@ -8,6 +8,7 @@ import com.example.pitch.R
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_questionario.*
 import kotlinx.android.synthetic.main.activity_main4.*
+import java.lang.StringBuilder
 
 class MainActivity4 : AppCompatActivity() {
 
@@ -19,7 +20,6 @@ class MainActivity4 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main4)
-
 
         Voltar.setOnClickListener {
             openNextActivity()
