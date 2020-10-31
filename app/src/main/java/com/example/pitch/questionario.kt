@@ -3,7 +3,10 @@ package com.example.pitch
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.CheckBox
 import android.widget.CompoundButton
+import android.widget.RadioButton
 import kotlinx.android.synthetic.main.activity_questionario.*
 import java.lang.StringBuilder
 
@@ -16,14 +19,10 @@ class questionario : AppCompatActivity() {
     var contadorTubercoluse: Int = 0
     var contadorAids: Int = 0
 
-    private fun openNextActivity2() {
-        val intent = Intent(this, MainActivity4::class.java)
-        startActivity(intent)
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_questionario)
+
 
         resultado_questionario.setOnClickListener {
             if (tosse.isChecked) {
@@ -111,7 +110,7 @@ class questionario : AppCompatActivity() {
             }
 
             else {
-                textDoenca.text = "Não temos sintomas suficientes para retornar uma doença"
+                textDoenca.text = "Inconclusivo"
             }
 
             contadorCovid = 0
@@ -123,3 +122,5 @@ class questionario : AppCompatActivity() {
         }
     }
 }
+
+
