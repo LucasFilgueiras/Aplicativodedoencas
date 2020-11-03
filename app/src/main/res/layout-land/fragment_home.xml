@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_lite"
+    android:background="@drawable/background_great"
     tools:context=".ui.home.HomeFragment">
 
     //favor nao retirar esse textview, se nao dá ruim
@@ -29,16 +29,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/text_box_2"
+        android:id="@+id/imageView3"
+        android:layout_width="515dp"
+        android:layout_height="149dp"
+        android:src="@drawable/text_box_2_land"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.736" />
+        app:layout_constraintTop_toTopOf="@+id/text_home"
+        app:layout_constraintVertical_bias="0.893" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

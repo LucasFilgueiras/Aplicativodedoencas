@@ -818,14 +818,13 @@
 
         <ImageView
             android:id="@+id/imageView22"
-            android:layout_width="455dp"
-            android:layout_height="311dp"
-            android:layout_marginTop="39dp"
+            android:layout_width="737dp"
+            android:layout_height="522dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintHorizontal_bias="0.545"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/resultado_questionario"
-            app:srcCompat="@drawable/white_image" />
+            app:srcCompat="@drawable/white_image_land" />
 
         <TextView
             android:id="@+id/textView19"
@@ -845,7 +844,7 @@
             app:layout_constraintHorizontal_bias="0.042"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView22"
-            app:layout_constraintVertical_bias="0.59" />
+            app:layout_constraintVertical_bias="0.56" />
 
         <TextView
             android:id="@+id/textDoenca"
