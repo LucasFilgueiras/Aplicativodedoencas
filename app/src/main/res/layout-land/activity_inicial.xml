@@ -19,34 +19,35 @@
             android:id="@+id/questionario_botao"
             android:layout_width="wrap_content"
             android:layout_height="142dp"
-            android:layout_marginTop="96dp"
+            android:layout_marginTop="10dp"
             android:background="#0028387C"
             android:drawableBottom="@drawable/botao_questionario"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
+
         <Button
             android:id="@+id/pular_botao"
-            android:layout_width="201dp"
-            android:layout_height="87dp"
+            android:layout_width="133dp"
+            android:layout_height="44dp"
             android:layout_marginStart="32dp"
             android:layout_marginLeft="32dp"
-            android:layout_marginTop="224dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginRight="32dp"
-            android:background="@android:color/background_light"
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#6AA3EA"
             android:text="Pular"
+            android:textColor="@color/cardview_light_background"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.417"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/questionario_botao" />
 
-
         <TextView
             android:id="@+id/textView22"
-            android:layout_width="330dp"
-            android:layout_height="wrap_content"
+            android:layout_width="663dp"
+            android:layout_height="122dp"
             android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginEnd="16dp"
@@ -55,7 +56,7 @@
             android:background="#00FFFFFF"
             android:ellipsize="none"
             android:singleLine="false"
-            android:text="Bem vindo ao nosso app, esta é apenas a página inicial. Caso queira responder um questionário para obtermos informações e lhe retornar a probabilidade de você ter uma doença, clique no botão abaixo."
+            android:text=" Bem vindo ao nosso app, esta é apenas a página inicial. Caso queira responder um questionário para obtermos informações e lhe retornar a probabilidade de você ter uma doença, clique no botão abaixo."
             android:textColor="@color/cardview_light_background"
             android:textSize="24sp"
             app:layout_constraintBottom_toTopOf="@+id/questionario_botao"
@@ -63,25 +64,22 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-
         <TextView
             android:id="@+id/textView23"
-            android:layout_width="330dp"
-            android:layout_height="115dp"
-            android:layout_marginTop="100dp"
+            android:layout_width="664dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="150dp"
             android:layout_marginBottom="100dp"
             android:background="#0003A9F4"
-            android:text="Não tome decisões a respeito de sua saúde com base em aplicativos, se necessário, procure um médico."
+            android:text=" Não tome decisões a respeito de sua saúde com base em aplicativos, se necessário, procure um médico."
             android:textColor="@color/cardview_light_background"
             android:textSize="24sp"
             app:layout_constraintBottom_toTopOf="@+id/pular_botao"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/questionario_botao"
-            app:layout_constraintVertical_bias="0.319" />
-
-
+            app:layout_constraintVertical_bias="0.619" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
