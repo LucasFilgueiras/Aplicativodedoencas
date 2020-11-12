@@ -10,7 +10,7 @@ import com.example.pitch.questionario
 class HomeViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "Olá!"
+
     }
     val text: LiveData<String> = _text
 

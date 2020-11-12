@@ -11,8 +11,10 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.pitch.MainActivity4
 import com.example.pitch.R
+import com.example.pitch.doencas.Covid
 import com.example.pitch.questionario
 import kotlinx.android.synthetic.main.fragment_doencas.*
+
 
 class DashboardFragment : Fragment() {
 
@@ -26,7 +28,7 @@ class DashboardFragment : Fragment() {
         dashboardViewModel =
                 ViewModelProviders.of(this).get(DashboardViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_doencas, container, false)
-        val textView: TextView = root.findViewById(R.id.text_dashboard)
+        val textView: TextView = root.findViewById(R.id.button_covid)
         dashboardViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })

@@ -17,6 +17,8 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.pitch.questionario
 import com.example.pitch.MainActivity4
+import com.example.pitch.doencas.Covid
+import com.example.pitch.ui.dashboard.DashboardFragment
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_questionario.*
 import kotlinx.android.synthetic.main.fragment_doencas.*
@@ -37,10 +39,12 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications
             )
         )
+
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
 
     }
+
 }
 
