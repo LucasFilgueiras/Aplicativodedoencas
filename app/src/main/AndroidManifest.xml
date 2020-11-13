@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".doencas.Covid"></activity>
+        <activity android:name=".doencas.HanseniaseActivity"></activity>
+        <activity android:name=".doencas.GripeActivity" />
+        <activity android:name=".doencas.AidsActivity" />
+        <activity android:name=".doencas.TuberculoseActivity" />
+        <activity android:name=".doencas.DengueActivity" />
+        <activity android:name=".doencas.Tuberculose" />
+        <activity android:name=".doencas.CovidActivity" />
         <activity android:name=".Covid" />
         <activity android:name=".questionario" />
         <activity android:name=".MainActivity" />
