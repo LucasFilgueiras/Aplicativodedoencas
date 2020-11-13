@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -21,7 +22,11 @@ class DashboardFragment : Fragment() {
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
+<<<<<<< HEAD
         super.onActivityCreated(savedInstanceState)
+=======
+
+>>>>>>> de2d011ef306c065a25a641933862a6cfd75c8f4
         dashboardViewModel =
                 ViewModelProviders.of(this).get(DashboardViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_doencas, container, false)
@@ -44,6 +49,7 @@ class DashboardFragment : Fragment() {
             vCovidButton.text = it
         })
 
+<<<<<<< HEAD
         vCovidButton.setOnClickListener{
             startActivity(vCovidActivity)
         }
@@ -68,6 +74,15 @@ class DashboardFragment : Fragment() {
             startActivity(vTuberculoseActivity)
         }
 
+=======
+        button_covid.setOnClickListener {
+            requireActivity().run {
+                startActivity(Intent(this, Covid::class.java))
+                finish()
+            }
+        }
+>>>>>>> de2d011ef306c065a25a641933862a6cfd75c8f4
         return root
     }
+
 }
