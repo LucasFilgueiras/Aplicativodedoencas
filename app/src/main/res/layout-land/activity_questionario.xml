@@ -19,7 +19,7 @@
             android:textColor="@android:color/black"
             android:textSize="18dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintHorizontal_bias="0.48"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -40,8 +40,8 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
             android:layout_marginTop="4dp"
             android:text="Qual a sua idade?"
             android:textColor="@android:color/black"
@@ -71,7 +71,7 @@
             android:textColor="@android:color/black"
             android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.146"
+            app:layout_constraintHorizontal_bias="0.08"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -84,7 +84,7 @@
             android:textColor="@android:color/black"
             android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.14"
+            app:layout_constraintHorizontal_bias="0.08"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -97,7 +97,7 @@
             android:textColor="@android:color/black"
             android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.14"
+            app:layout_constraintHorizontal_bias="0.08"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
 
@@ -110,7 +110,7 @@
             android:textColor="@android:color/black"
             android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.205"
+            app:layout_constraintHorizontal_bias="0.09"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -138,7 +138,7 @@
             android:textColor="@android:color/black"
             android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.11"
+            app:layout_constraintHorizontal_bias="0.08"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -164,7 +164,7 @@
             android:textColor="@android:color/black"
             android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.19"
+            app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -196,7 +196,7 @@
             android:textColor="@android:color/black"
             android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.07"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
@@ -222,7 +222,7 @@
             android:textColor="@android:color/black"
             android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.352"
+            app:layout_constraintHorizontal_bias="0.15"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView14" />
 
@@ -230,8 +230,8 @@
             android:id="@+id/checkBox27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="28dp"
-            android:layout_marginLeft="28dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
             android:layout_marginTop="16dp"
             android:text="Arritmia cardíaca"
             app:layout_constraintStart_toStartOf="parent"
@@ -244,7 +244,7 @@
             android:layout_marginTop="16dp"
             android:text="Insuficiência cardíaca"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.236"
+            app:layout_constraintHorizontal_bias="0.09"
             app:layout_constraintStart_toEndOf="@+id/checkBox27"
             app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
@@ -252,8 +252,8 @@
             android:id="@+id/checkBox29"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="28dp"
-            android:layout_marginLeft="28dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
             android:layout_marginTop="12dp"
             android:text="Infarto"
             app:layout_constraintStart_toStartOf="parent"
@@ -266,7 +266,7 @@
             android:layout_marginTop="12dp"
             android:text="Nenhum"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.162"
+            app:layout_constraintHorizontal_bias="0.06"
             app:layout_constraintStart_toEndOf="@+id/checkBox29"
             app:layout_constraintTop_toBottomOf="@+id/checkBox28" />
 
@@ -279,7 +279,7 @@
             android:textColor="@android:color/black"
             android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.214"
+            app:layout_constraintHorizontal_bias="0.12"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/checkBox29" />
 
@@ -301,7 +301,7 @@
             android:layout_marginTop="20dp"
             android:text="Rinite"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.077"
+            app:layout_constraintHorizontal_bias="0.04"
             app:layout_constraintStart_toEndOf="@+id/checkBox31"
             app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -312,7 +312,7 @@
             android:layout_marginTop="20dp"
             android:text="Bronquite"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.134"
+            app:layout_constraintHorizontal_bias="0.07"
             app:layout_constraintStart_toEndOf="@+id/checkBox32"
             app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -320,10 +320,12 @@
             android:id="@+id/checkBox34"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="12dp"
             android:text="DPOC - Doença Pulmonar Obstrutiva Crônica"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.294"
+            app:layout_constraintHorizontal_bias="0.13"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/checkBox31" />
 
@@ -331,10 +333,12 @@
             android:id="@+id/checkBox35"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="12dp"
             android:text="Enfisema"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.094"
+            app:layout_constraintHorizontal_bias="0.08"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/checkBox34" />
 
@@ -392,10 +396,12 @@
             android:id="@+id/dores_corpo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
             android:layout_marginTop="8dp"
             android:text="Dores no corpo"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintHorizontal_bias="0.08"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tosse" />
 
@@ -425,8 +431,8 @@
             android:id="@+id/dor_garganta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="28dp"
-            android:layout_marginLeft="28dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginLeft="55dp"
             android:layout_marginTop="8dp"
             android:text="Dor de garganta"
             app:layout_constraintStart_toStartOf="parent"
@@ -449,8 +455,8 @@
             android:id="@+id/falta_ar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="28dp"
-            android:layout_marginLeft="28dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginLeft="55dp"
             android:layout_marginTop="8dp"
             android:text="Falta de ar"
             app:layout_constraintStart_toStartOf="parent"
@@ -465,7 +471,7 @@
             android:layout_marginTop="8dp"
             android:text="Perda do paladar"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.03"
             app:layout_constraintStart_toEndOf="@+id/falta_ar"
             app:layout_constraintTop_toBottomOf="@+id/fraqueza_muscular" />
 
@@ -478,7 +484,7 @@
             android:layout_marginTop="136dp"
             android:text="Perda do oufato"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.04"
             app:layout_constraintStart_toEndOf="@+id/nauseas"
             app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
@@ -506,6 +512,7 @@
             android:text="Nenhum"
             app:layout_constraintBottom_toTopOf="@+id/textView17"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/checkBox35"
             app:layout_constraintTop_toBottomOf="@+id/checkBox34" />
 
@@ -519,12 +526,12 @@
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
             android:layout_marginBottom="28dp"
-            android:text="=============================================="
+            android:text="=============================================================================="
             android:textColor="@android:color/black"
             android:textSize="16dp"
             app:layout_constraintBottom_toTopOf="@+id/textView19"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.55"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/resultado_questionario"
             app:layout_constraintVertical_bias="0.0" />
@@ -558,7 +565,7 @@
             android:id="@+id/textView20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="=============================================="
+            android:text="=============================================================================="
             android:textColor="@android:color/black"
             android:textSize="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -571,7 +578,7 @@
             android:layout_height="83dp"
             app:layout_constraintBottom_toTopOf="@+id/textView3"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2"
             app:layout_constraintVertical_bias="0.439">
@@ -594,7 +601,7 @@
             android:layout_height="96dp"
             app:layout_constraintBottom_toTopOf="@+id/textView5"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.14"
+            app:layout_constraintHorizontal_bias="0.08"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4">
 
@@ -618,7 +625,7 @@
             android:layout_marginTop="15dp"
             app:layout_constraintBottom_toTopOf="@+id/textView6"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.14"
+            app:layout_constraintHorizontal_bias="0.08"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5">
 
@@ -640,7 +647,7 @@
             android:layout_height="163dp"
             app:layout_constraintBottom_toTopOf="@+id/textView7"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintHorizontal_bias="0.09"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6"
             app:layout_constraintVertical_bias="0.314">
@@ -682,7 +689,7 @@
             android:layout_marginBottom="25dp"
             app:layout_constraintBottom_toTopOf="@+id/textView8"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.44"
+            app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintStart_toStartOf="parent">
 
             <RadioButton
@@ -709,7 +716,7 @@
             android:layout_height="91dp"
             android:layout_marginTop="25dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.37"
+            app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView8">
 
@@ -737,7 +744,7 @@
             android:layout_marginBottom="20dp"
             app:layout_constraintBottom_toTopOf="@+id/textView10"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.36"
+            app:layout_constraintHorizontal_bias="0.07"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView9">
 
@@ -765,6 +772,7 @@
             android:layout_marginBottom="2dp"
             app:layout_constraintBottom_toTopOf="@+id/textView11"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.09"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView10">
 
@@ -792,6 +800,7 @@
             android:layout_marginBottom="22dp"
             app:layout_constraintBottom_toTopOf="@+id/textView12"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.08"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView11">
 
@@ -819,6 +828,7 @@
             android:layout_marginBottom="14dp"
             app:layout_constraintBottom_toTopOf="@+id/textView13"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView12">
 
@@ -846,7 +856,7 @@
             android:layout_marginBottom="15dp"
             app:layout_constraintBottom_toTopOf="@+id/textView14"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.35"
+            app:layout_constraintHorizontal_bias="0.08"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13">
 
@@ -874,8 +884,9 @@
             android:layout_marginBottom="11dp"
             app:layout_constraintBottom_toTopOf="@+id/textView15"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.07"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView14" >
+            app:layout_constraintTop_toBottomOf="@+id/textView14">
 
             <RadioButton
                 android:id="@+id/radioButton32"

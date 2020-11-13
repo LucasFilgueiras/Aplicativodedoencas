@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".doencas.Covid"></activity>
-        <activity android:name=".Covid" />
         <activity android:name=".questionario" />
         <activity android:name=".MainActivity" />
         <activity
