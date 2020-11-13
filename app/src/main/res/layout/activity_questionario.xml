@@ -486,7 +486,7 @@
             android:id="@+id/resultado_questionario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="100dp"
             android:text="Resultado"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.093"
@@ -875,7 +875,7 @@
             app:layout_constraintBottom_toTopOf="@+id/textView15"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView14" >
+            app:layout_constraintTop_toBottomOf="@+id/textView14">
 
             <RadioButton
                 android:id="@+id/radioButton32"
@@ -889,6 +889,75 @@
                 android:layout_height="wrap_content"
                 android:text="Não" />
         </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/dores_articulacoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="284dp"
+            android:layout_marginRight="284dp"
+            android:layout_marginBottom="62dp"
+            android:text="Dores nas articulações"
+            app:layout_constraintBottom_toTopOf="@+id/resultado_questionario"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/falta_ar" />
+
+        <CheckBox
+            android:id="@+id/bolhas_pele"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="53dp"
+            android:layout_marginRight="53dp"
+            android:layout_marginBottom="110dp"
+            android:text="Bolhas na pele"
+            app:layout_constraintBottom_toTopOf="@+id/textView18"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/dores_articulacoes"
+            app:layout_constraintTop_toBottomOf="@+id/perda_paladar"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <CheckBox
+            android:id="@+id/formigamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="289dp"
+            android:layout_marginRight="289dp"
+            android:layout_marginBottom="29dp"
+            android:text="Formigamento"
+            app:layout_constraintBottom_toTopOf="@+id/resultado_questionario"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dores_articulacoes" />
+
+        <CheckBox
+            android:id="@+id/irritacao_olhos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="129dp"
+            android:layout_marginRight="129dp"
+            android:layout_marginBottom="115dp"
+            android:text="Irritação nos olhos"
+            app:layout_constraintBottom_toTopOf="@+id/textView18"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/formigamento"
+            app:layout_constraintTop_toBottomOf="@+id/dores_articulacoes"
+            app:layout_constraintVertical_bias="0.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

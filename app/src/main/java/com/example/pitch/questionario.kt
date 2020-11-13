@@ -13,6 +13,7 @@ class questionario : AppCompatActivity() {
     var contadorH1N1: Int = 0
     var contadorTubercoluse: Int = 0
     var contadorAids: Int = 0
+    var contadorHanseniase: Int = 0
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -72,6 +73,18 @@ class questionario : AppCompatActivity() {
             if (perda_oufato.isChecked) {
                 contadorCovid++
             }
+            if (dores_articulacoes.isChecked) {
+                contadorHanseniase++
+            }
+            if (bolhas_pele.isChecked) {
+                contadorHanseniase++
+            }
+            if (formigamento.isChecked) {
+                contadorHanseniase++
+            }
+            if (irritacao_olhos.isChecked) {
+                contadorHanseniase++
+            }
 
 
             if (contadorDengue >= 3 && contadorCovid < 9) {
@@ -104,8 +117,14 @@ class questionario : AppCompatActivity() {
                 textDoenca.text = resultString16.toString()
             }
 
+            else if (contadorHanseniase >= 2 && contadorCovid < 9) {
+                val resultString29 = StringBuilder()
+                resultString29.append("É provável que você tenha Hanseníase")
+                textDoenca.text = resultString29.toString()
+            }
+
             else {
-                textDoenca.text = "Não temos sintomas suficientes para retornar uma doença"
+                textDoenca.text = "Inconclusivo"
             }
 
             contadorCovid = 0
