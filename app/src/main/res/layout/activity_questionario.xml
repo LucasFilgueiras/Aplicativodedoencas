@@ -56,7 +56,7 @@
             android:layout_marginTop="200dp"
             android:ems="10"
             android:hint="Digite aqui"
-            android:inputType="textPersonName"
+            android:inputType="number"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.084"
             app:layout_constraintStart_toEndOf="@+id/textView3"

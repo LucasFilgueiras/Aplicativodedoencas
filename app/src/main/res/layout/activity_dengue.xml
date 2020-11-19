@@ -14,12 +14,26 @@
             android:id="@+id/textView20"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="250dp"
-            android:textSize="50dp"
-            android:text="Favela venceu na Dengue familia !"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="DENGUE, ZIKA VÍRUS, CHIKUNGUNYA \n\n Dengue, zika e Chikungunya são vírus transmitidos pela picada do mosquito Aedes aegypti, infectado. As três podem trazer graves consequências quando entram em contato com os seres humanos, sendo que muitos destes efeitos foram descobertos recentemente, como a relação entre a infecção pelo zika em gestantes e o nascimento de bebês com microcefalia (é uma condição neurológica que faz com que a criança tenha a cabeça significativamente menor do que a média para a sua idade e sexo).\n\n As altas estatísticas de contaminação pelo Aedes aegypti se dão entre muitos fatores, por ele ser um mosquito doméstico, que se aloja dentro ou próximo a domicílios, principalmente em áreas urbanas e locais com alta densidade populacional. Os surtos de contaminação costumam acontecer no verão, devido à elevação de temperatura e intensidade de chuvas que possibilita e proliferação do mosquito.\n\n Os sintomas da dengue são Febre alta > 38.5ºC, dores musculares intensas, dor ao movimentar os olhos, mal estar, falta de apetite, dor de cabeça, Manchas vermelhas no corpo. Já os sintomas da zika são “Vermelhão” em todo o corpo com muita “coceira” depois de alguns dias, febre baixa muitas vezes não sentida, conjuntivite (olho vermelho) sem secreção, mialgia e dor de cabeça e dor nas juntas. E os sintomas da CHIKUNGUNYA dor incapacitante nas articulações, febre, dor nas costas, erupções, fadiga, náuseas, vômitos, dores de cabeça e dores musculares(mialgias).\n\n A prevenção pode ser feita evitando deixar água parada em locais propícioral ou por via intravenosa (com uso de soro, por exemplo). O tratamento é feito de forma sintomática, sempre de acordo com a avaliação do profissional de saúde, conforme cada caso. "
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="403dp"
+            android:layout_height="406dp"
+            android:src="@drawable/prevencao_dengue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

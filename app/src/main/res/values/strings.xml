@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Pitch</string>
+    <string name="app_name">InfoDoenças</string>
     <string name="title_home">Página Inicial</string>
     <string name="title_dashboard">Doenças</string>
     <string name="title_notifications">Farmácias</string>
