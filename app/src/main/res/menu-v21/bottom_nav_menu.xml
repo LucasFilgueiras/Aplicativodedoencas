@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:icon="@drawable/name_doenca_icon"
         android:title="@string/title_dashboard" />
 
     <item
@@ -14,7 +14,7 @@
 
     <item
         android:id="@+id/navigation_home"
-        android:icon="?attr/actionModePasteDrawable"
+        android:icon="?android:attr/actionModeFindDrawable"
         android:title="@string/title_home" />
 
 
