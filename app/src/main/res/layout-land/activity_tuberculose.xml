@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="88dp"
+            android:layout_marginTop="80dp"
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:text="Tuberculose\n\n A tuberculose é causada por uma bactéria chamada Mycobacterium tuberculosis. A principal forma de transmissão da doença se dá através de gotículas e secreções expelidas pela tosse e espirro, principalmente afetando pessoas que vivem próximas a indivíduos infectados. \n\n Trata-se de uma grave doença cujo os principais sintomas incluem a perda de peso sem causa aparente, além da sudorese noturna, febre, fadiga, dores no corpo (peito), tosse persistente com a presença de secreções, podendo inclusive promover a expectoração de sangue nesse processo (hemoptise). É extremante importante ressaltar que a tuberculose tem tratamento e cura, após um diagnóstico realizado por critérios que envolvem o exame clínico e laboratorial: uma anamnese inicial acompanhada de testes complementares como a radiografia do tórax e um exame específico de teste cutâneo PPD (derivado proteico purificado). Vale ressaltar, ao paciente que o tratamento quando levado a sério, apesar de prolongado na maioria das vezes permite a cura dessa grave doença, sendo este feito com o uso de antibióticos como a Isoniazida, Rifampicina, Etambutol, Pirazinamida, dentre outros específicos para o combate ao bacilo de Koch. É imprescindível o fato de que todo medicamento só deverá ser tomado com prescrição médica, pois a automedicação impõe sérios riscos à saúde do paciente. Essa infecção bacteriana não afeta somente os pulmões, mas também ossos, rins, intestinos e meninges (três finas membranas que protegem o SNC - Sistema Nervoso Central). O tratamento é prolongado e exige cuidados durante o seu período, mas é importante ressaltar que a doença tem cura sendo que, um diagnóstico precoce, garante maior sucesso em seus resultados com possibilidade de redução de sequelas. "
@@ -29,19 +29,20 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="434dp"
-            android:layout_height="87dp"
+            android:layout_width="743dp"
+            android:layout_height="85dp"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginEnd="1dp"
             android:layout_marginRight="1dp"
+            android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toTopOf="@+id/textView20"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.647"
+            app:layout_constraintHorizontal_bias="0.695"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/lite___cima" />
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/cima___great" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

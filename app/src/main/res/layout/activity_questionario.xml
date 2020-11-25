@@ -8,7 +8,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#F8F8FF">
 
         <TextView
             android:id="@+id/textView"
@@ -509,6 +510,12 @@
             app:layout_constraintStart_toEndOf="@+id/checkBox35"
             app:layout_constraintTop_toBottomOf="@+id/checkBox34" />
 
+
+
+
+
+
+
         <TextView
             android:id="@+id/textView18"
             android:layout_width="wrap_content"
@@ -518,9 +525,8 @@
             android:layout_marginTop="43dp"
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
-            android:layout_marginBottom="28dp"
-            android:text="=============================================="
             android:textColor="@android:color/black"
+            android:background="@drawable/respost"
             android:textSize="16dp"
             app:layout_constraintBottom_toTopOf="@+id/textView19"
             app:layout_constraintEnd_toEndOf="parent"
@@ -533,13 +539,14 @@
             android:id="@+id/textView19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="31dp"
             android:layout_marginBottom="147dp"
             android:text="De acordo com as suas respostas vamos ter informar qual a probabilidade de você ter uma doença. Após responder o questionário, clique em resultado e terá a sua resposta. Ela aparecerá logo abaixo:"
             android:textColor="@android:color/black"
+            android:background="@drawable/respost"
             android:textSize="16dp"
             app:layout_constraintBottom_toTopOf="@+id/textView20"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
@@ -548,6 +555,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@android:color/black"
+            android:background="@drawable/respost"
             android:textSize="16dp"
             app:layout_constraintBottom_toTopOf="@+id/textView20"
             app:layout_constraintEnd_toEndOf="parent"
@@ -559,14 +567,16 @@
             android:id="@+id/textView20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="=============================================="
             android:textColor="@android:color/black"
             android:textSize="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-        <RadioGroup
+
+
+
+    <RadioGroup
             android:id="@+id/radioGroup"
             android:layout_width="328dp"
             android:layout_height="83dp"
@@ -833,7 +843,7 @@
                 android:id="@+id/radioButton29"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sim" />
+                android:text="Não" />
         </RadioGroup>
 
         <RadioGroup
@@ -956,6 +966,7 @@
             android:text="Irritação nos olhos"
             app:layout_constraintBottom_toTopOf="@+id/textView18"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.27"
             app:layout_constraintStart_toEndOf="@+id/formigamento"
             app:layout_constraintTop_toBottomOf="@+id/dores_articulacoes"
             app:layout_constraintVertical_bias="0.0" />
@@ -976,6 +987,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

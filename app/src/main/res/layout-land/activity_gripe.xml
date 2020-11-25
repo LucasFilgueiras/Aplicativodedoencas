@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="84dp"
+            android:layout_marginTop="76dp"
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:text="Gripe Comum e H1N1\n\n A gripe é uma doença aguda, isto é, de início súbito, provocado por um vírus que afeta, sobretudo, o trato respiratório. O quadro clínico caracteriza-se por febre alta, dores e prostração. Os doentes queixam-se de dores de garganta, catarro óculo-nasal, tosse, dores musculares e de cabeça. Sintomatologia comum a outras infecções. Por isso, na ausência do diagnóstico causal (que exige apoio de laboratório), é habitual a designação de síndrome gripal para caracterizar aquele conjunto de sintomas e sinais. Em regra, no plano clínico, tem uma evolução favorável para a cura em poucos dias, habitualmente em menos de uma semana. É esta marca de benignidade que acaba por ter um efeito altamente pernicioso1. Antes de mais, porque essa imagem de rápida evolução para a cura não é suficientemente motivadora para gerar preocupações nos cidadãos que, por isto mesmo, não procuram informações sobre a sua prevenção e tratamento. Não se informam e, muitas vezes, não se protegem. Por outro lado, também é verdade que mesmo durante os períodos Inter pandêmicos há que ter em conta a gravidade das complicações clínicas da gripe e os efeitos negativos que origina nos planos económico e social, decorrentes do absentismo laboral e escolar.\n\n O vírus influenza A (H1N1) é de origem suína. O período de incubação pode ser de aproximadamente 1,5 a 3 dias, o que é semelhante ao da gripe sazonal. Em uma minoria de pacientes, o período pode se estender para 7 dias. Ela se dá pelo contato direto com os animais ou com objetos contaminados e de pessoa para pessoa, por via aérea ou por meio de partículas de saliva e de secreções das vias respiratórias. "
@@ -29,19 +29,20 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="427dp"
-            android:layout_height="102dp"
+            android:layout_width="743dp"
+            android:layout_height="85dp"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginEnd="1dp"
             android:layout_marginRight="1dp"
+            android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toTopOf="@+id/textView20"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintHorizontal_bias="0.695"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@drawable/lite___cima" />
+            app:srcCompat="@drawable/cima___great" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

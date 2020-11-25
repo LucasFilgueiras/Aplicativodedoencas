@@ -19,11 +19,10 @@
             android:id="@+id/questionario_botao"
             android:layout_width="250dp"
             android:layout_height="141dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:background="#0028387C"
             android:drawableBottom="@drawable/botao_questionario"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
@@ -33,7 +32,7 @@
             android:layout_height="44dp"
             android:layout_marginStart="32dp"
             android:layout_marginLeft="32dp"
-            android:layout_marginTop="196dp"
+            android:layout_marginTop="228dp"
             android:layout_marginEnd="15dp"
             android:layout_marginRight="15dp"
             android:background="#6AA3EA"
@@ -46,10 +45,8 @@
 
         <TextView
             android:id="@+id/textView22"
-            android:layout_width="385dp"
-            android:layout_height="274dp"
-            android:layout_marginStart="15dp"
-            android:layout_marginLeft="15dp"
+            android:layout_width="340dp"
+            android:layout_height="275dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="100dp"
@@ -61,14 +58,14 @@
             android:textSize="24sp"
             app:layout_constraintBottom_toTopOf="@+id/questionario_botao"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.28"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView23"
-            android:layout_width="393dp"
-            android:layout_height="141dp"
+            android:layout_width="349dp"
+            android:layout_height="187dp"
             android:layout_marginTop="150dp"
             android:layout_marginBottom="100dp"
             android:background="#0003A9F4"
@@ -77,10 +74,10 @@
             android:textSize="24sp"
             app:layout_constraintBottom_toTopOf="@+id/pular_botao"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintHorizontal_bias="0.28"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/questionario_botao"
-            app:layout_constraintVertical_bias="0.593" />
+            app:layout_constraintVertical_bias="0.53" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

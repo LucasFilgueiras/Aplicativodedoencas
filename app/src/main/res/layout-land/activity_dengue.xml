@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="84dp"
+            android:layout_marginTop="76dp"
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:text="DENGUE, ZIKA VÍRUS, CHIKUNGUNYA \n\n Dengue, zika e Chikungunya são vírus transmitidos pela picada do mosquito Aedes aegypti, infectado. As três podem trazer graves consequências quando entram em contato com os seres humanos, sendo que muitos destes efeitos foram descobertos recentemente, como a relação entre a infecção pelo zika em gestantes e o nascimento de bebês com microcefalia (é uma condição neurológica que faz com que a criança tenha a cabeça significativamente menor do que a média para a sua idade e sexo).\n\n As altas estatísticas de contaminação pelo Aedes aegypti se dão entre muitos fatores, por ele ser um mosquito doméstico, que se aloja dentro ou próximo a domicílios, principalmente em áreas urbanas e locais com alta densidade populacional. Os surtos de contaminação costumam acontecer no verão, devido à elevação de temperatura e intensidade de chuvas que possibilita e proliferação do mosquito.\n\n Os sintomas da dengue são Febre alta > 38.5ºC, dores musculares intensas, dor ao movimentar os olhos, mal estar, falta de apetite, dor de cabeça, Manchas vermelhas no corpo. Já os sintomas da zika são “Vermelhão” em todo o corpo com muita “coceira” depois de alguns dias, febre baixa muitas vezes não sentida, conjuntivite (olho vermelho) sem secreção, mialgia e dor de cabeça e dor nas juntas. E os sintomas da CHIKUNGUNYA dor incapacitante nas articulações, febre, dor nas costas, erupções, fadiga, náuseas, vômitos, dores de cabeça e dores musculares(mialgias).\n\n A prevenção pode ser feita evitando deixar água parada em locais propícioral ou por via intravenosa (com uso de soro, por exemplo). O tratamento é feito de forma sintomática, sempre de acordo com a avaliação do profissional de saúde, conforme cada caso. "
@@ -29,19 +29,20 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="457dp"
-            android:layout_height="138dp"
+            android:layout_width="743dp"
+            android:layout_height="85dp"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginEnd="1dp"
             android:layout_marginRight="1dp"
+            android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toTopOf="@+id/textView20"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.842"
+            app:layout_constraintHorizontal_bias="0.695"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.481"
-            app:srcCompat="@drawable/lite___cima" />
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/cima___great" />
 
         <ImageView
             android:id="@+id/imageView"

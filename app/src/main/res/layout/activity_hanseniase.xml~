@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doencas.HanseniaseActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/background_dark"
+            android:text="HANSENÍASE\n\n  Antigamente era conhecida como lepra, é considerada também uma doença crônica e transmissível. Tem como agente etiológico o Mycobacterium leprae, podendo vir a tingir a pele, os nervos periféricos causando lesões. Uma pessoa contendo essa doença pode em seu estágio infectante, não tendo o tratamento adequado eliminar bacilo para o meio exterior, infectando outras pessoas. Esses bacilos são expelidos pelas vias aéreas superiores do doente, por meio da proximidade entre eles. A hanseníase pode apresentar manchas pelo corpo, na pigmentação avermelhada, mais claras ou mais escuras tendo também uma alteração na sensibilidade no local associado á perda de pelo e ausência da transpiração. Quando um determinado nervo afetado pode vir a causar dormência, perda do tônus muscular e retrações dos dedos, causando uma incapacidade física. Nas fases mais críticas pode ser que apareça caroços ou inchaços nas partes frias do corpo (orelha, mãos cotovelos e pés). Seu diagnóstico é dado por meio de um exame geral e dermatoneurológico, que tem como objetivo identificar lesões ou áreas da pele com a sensibilidade alterada. Seu tratamento é disponibilizado pelo SISTEMA ÚNICO DE SAÚDE (SUS) e acompanhado pela UNIDADE BÁSICA DE SÁUDE (UBS). Ele é realizado com POLIQUIMIOTERAPIA (PQT), um conjunto de antimicrobianos, recomendado pela ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS). A primeira dose mensal do cliente é supervisionada por um profissional de saúde, depois o medicamento pode ser auto administrado. Para as crianças, as doses são ajustadas de acordo com seu peso e idade. "
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

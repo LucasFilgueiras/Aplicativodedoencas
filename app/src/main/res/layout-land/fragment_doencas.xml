@@ -17,79 +17,97 @@
             android:id="@+id/button_tuberculose"
             android:layout_width="195dp"
             android:layout_height="54dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="216dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="158dp"
+            android:layout_marginRight="158dp"
             android:background="@drawable/rounded_button"
-            android:text="Tuberculose"
+            android:text="TUBERCULOSE"
+            app:layout_constraintBottom_toTopOf="@+id/button_AIDS"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_covid" />
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toEndOf="@+id/button_covid"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
         <Button
             android:id="@+id/button_covid"
             android:layout_width="195dp"
             android:layout_height="54dp"
             android:layout_marginTop="24dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="216dp"
             android:layout_marginRight="216dp"
             android:background="@drawable/rounded_button"
             android:text="COVID-19"
+            app:layout_constraintBottom_toTopOf="@+id/button_dengue"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.434"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
 
         <Button
             android:id="@+id/button_dengue"
             android:layout_width="195dp"
             android:layout_height="54dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="216dp"
             android:layout_marginRight="216dp"
+            android:layout_marginBottom="16dp"
             android:background="@drawable/rounded_button"
-            android:text="Dengue - ZIKA CHIKUNGUNYA"
+            android:text="DENGUE - ZIKA CHIKUNGUNYA"
+            app:layout_constraintBottom_toTopOf="@+id/button_gripe"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.434"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_tuberculose" />
+            app:layout_constraintTop_toBottomOf="@+id/button_covid" />
 
         <Button
             android:id="@+id/button_AIDS"
             android:layout_width="195dp"
             android:layout_height="54dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="216dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="158dp"
+            android:layout_marginRight="158dp"
             android:background="@drawable/rounded_button"
             android:text="AIDS"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_dengue" />
+            app:layout_constraintStart_toEndOf="@+id/button_dengue"
+            app:layout_constraintTop_toBottomOf="@+id/button_tuberculose" />
 
         <Button
             android:id="@+id/button_gripe"
             android:layout_width="195dp"
             android:layout_height="54dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="216dp"
             android:layout_marginRight="216dp"
             android:background="@drawable/rounded_button"
             android:text="GRIPE - H1N1"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.434"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_AIDS" />
+            app:layout_constraintTop_toBottomOf="@+id/button_dengue" />
 
         <Button
             android:id="@+id/button_hanseniase"
             android:layout_width="195dp"
             android:layout_height="54dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="216dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="158dp"
+            android:layout_marginRight="158dp"
             android:background="@drawable/rounded_button"
             android:text="HANSENIASE"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_gripe" />
+            app:layout_constraintStart_toEndOf="@+id/button_gripe"
+            app:layout_constraintTop_toBottomOf="@+id/button_AIDS" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
