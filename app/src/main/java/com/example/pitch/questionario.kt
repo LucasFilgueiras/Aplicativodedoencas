@@ -134,7 +134,7 @@ class questionario : AppCompatActivity() {
                 intent = Intent(this,HanseniaseActivity::class.java)
             }
 
-            else if (contadorCovid >= 9) {
+            else if (contadorCovid >= 5) {
                 val resultString16 = StringBuilder()
                 resultString16.append("É provável que você tenha Covid-19")
                 textDoenca.text = resultString16.toString()
